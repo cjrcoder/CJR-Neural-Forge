@@ -58,7 +58,8 @@ import {
   mathHelper55,
   mathHelper56,
   mathHelper57,
-  mathHelper58
+  mathHelper58,
+  mathHelper59
 } from './math.js';
 
 test('mathHelper1', () => { assert.strictEqual(mathHelper1(1), 2); });
@@ -119,3 +120,4 @@ test('mathHelper55', () => { assert.strictEqual(mathHelper55(1), 56); });
 test('mathHelper56', () => { assert.strictEqual(mathHelper56(1), 57); });
 test('mathHelper57', () => { assert.strictEqual(mathHelper57(1), 58); });
 test('mathHelper58', () => { assert.strictEqual(mathHelper58(1), 59); });
+test('mathHelper59', () => { assert.strictEqual(mathHelper59(1), 60); });
