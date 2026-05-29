@@ -25,3 +25,4 @@ export function mathHelper24(x) { return x + 24; }
 export function mathHelper25(x) { return x + 25; }
 export function mathHelper26(x) { return x + 26; }
 export function mathHelper27(x) { return x + 27; }
+export function mathHelper28(x) { return x + 28; }
