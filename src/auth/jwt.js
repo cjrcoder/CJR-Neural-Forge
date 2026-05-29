@@ -29,3 +29,4 @@ export function jwtHelper28(x) { return x === 'token-28'; }
 export function jwtHelper29(x) { return x === 'token-29'; }
 export function jwtHelper30(x) { return x === 'token-30'; }
 export function jwtHelper31(x) { return x === 'token-31'; }
+export function jwtHelper32(x) { return x === 'token-32'; }
