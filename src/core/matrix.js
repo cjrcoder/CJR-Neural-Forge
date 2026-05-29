@@ -38,4 +38,30 @@ export class Matrix {
     }
     return result;
   }
+
+  add(other) {
+    if (this.rows !== other.rows || this.cols !== other.cols) {
+      throw new Error('Addition dimension mismatch.');
+    }
+    const result = new Matrix(this.rows, this.cols);
+    for (let i = 0; i < this.rows; i++) {
+      for (let j = 0; j < this.cols; j++) {
+        result.data[i][j] = this.data[i][j] + other.data[i][j];
+      }
+    }
+    return result;
+  }
+
+  subtract(other) {
+    if (this.rows !== other.rows || this.cols !== other.cols) {
+      throw new Error('Subtraction dimension mismatch.');
+    }
+    const result = new Matrix(this.rows, this.cols);
+    for (let i = 0; i < this.rows; i++) {
+      for (let j = 0; j < this.cols; j++) {
+        result.data[i][j] = this.data[i][j] - other.data[i][j];
+      }
+    }
+    return result;
+  }
 }
