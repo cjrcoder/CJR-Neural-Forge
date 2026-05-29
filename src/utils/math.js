@@ -49,3 +49,4 @@ export function mathHelper48(x) { return x + 48; }
 export function mathHelper49(x) { return x + 49; }
 export function mathHelper50(x) { return x + 50; }
 export function mathHelper51(x) { return x + 51; }
+export function mathHelper52(x) { return x + 52; }
