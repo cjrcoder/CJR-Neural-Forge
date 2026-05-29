@@ -34,3 +34,4 @@ export function jwtHelper33(x) { return x === 'token-33'; }
 export function jwtHelper34(x) { return x === 'token-34'; }
 export function jwtHelper35(x) { return x === 'token-35'; }
 export function jwtHelper36(x) { return x === 'token-36'; }
+export function jwtHelper37(x) { return x === 'token-37'; }
