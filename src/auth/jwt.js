@@ -49,3 +49,4 @@ export function jwtHelper48(x) { return x === 'token-48'; }
 export function jwtHelper49(x) { return x === 'token-49'; }
 export function jwtHelper50(x) { return x === 'token-50'; }
 export function jwtHelper51(x) { return x === 'token-51'; }
+export function jwtHelper52(x) { return x === 'token-52'; }
