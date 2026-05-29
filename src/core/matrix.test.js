@@ -24,3 +24,16 @@ test('Matrix transposition', () => {
   assert.strictEqual(t.cols, 2);
   assert.deepStrictEqual(t.data, [[1, 4], [2, 5], [3, 6]]);
 });
+
+test('Matrix dot product', () => {
+  const a = new Matrix(2, 3, [[1, 2, 3], [4, 5, 6]]);
+  const b = new Matrix(3, 2, [[7, 8], [9, 1], [2, 3]]);
+  const res = Matrix.dot(a, b);
+  assert.strictEqual(res.rows, 2);
+  assert.strictEqual(res.cols, 2);
+  assert.deepStrictEqual(res.data, [
+    [1 * 7 + 2 * 9 + 3 * 2, 1 * 8 + 2 * 1 + 3 * 3],
+    [4 * 7 + 5 * 9 + 6 * 2, 4 * 8 + 5 * 1 + 6 * 3]
+  ]);
+  assert.throws(() => Matrix.dot(a, a), /Dot product dimension mismatch/);
+});
