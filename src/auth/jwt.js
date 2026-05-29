@@ -19,3 +19,4 @@ export function jwtHelper18(x) { return x === 'token-18'; }
 export function jwtHelper19(x) { return x === 'token-19'; }
 export function jwtHelper20(x) { return x === 'token-20'; }
 export function jwtHelper21(x) { return x === 'token-21'; }
+export function jwtHelper22(x) { return x === 'token-22'; }
