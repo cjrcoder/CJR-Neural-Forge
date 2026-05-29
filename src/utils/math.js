@@ -9,3 +9,4 @@ export function mathHelper8(x) { return x + 8; }
 export function mathHelper9(x) { return x + 9; }
 export function mathHelper10(x) { return x + 10; }
 export function mathHelper11(x) { return x + 11; }
+export function mathHelper12(x) { return x + 12; }
