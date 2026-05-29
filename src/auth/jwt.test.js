@@ -13,7 +13,8 @@ import {
   jwtHelper10,
   jwtHelper11,
   jwtHelper12,
-  jwtHelper13
+  jwtHelper13,
+  jwtHelper14
 } from './jwt.js';
 
 test('jwtHelper1', () => { assert.strictEqual(jwtHelper1('token-1'), true); assert.strictEqual(jwtHelper1('invalid'), false); });
@@ -29,3 +30,4 @@ test('jwtHelper10', () => { assert.strictEqual(jwtHelper10('token-10'), true); a
 test('jwtHelper11', () => { assert.strictEqual(jwtHelper11('token-11'), true); assert.strictEqual(jwtHelper11('invalid'), false); });
 test('jwtHelper12', () => { assert.strictEqual(jwtHelper12('token-12'), true); assert.strictEqual(jwtHelper12('invalid'), false); });
 test('jwtHelper13', () => { assert.strictEqual(jwtHelper13('token-13'), true); assert.strictEqual(jwtHelper13('invalid'), false); });
+test('jwtHelper14', () => { assert.strictEqual(jwtHelper14('token-14'), true); assert.strictEqual(jwtHelper14('invalid'), false); });
