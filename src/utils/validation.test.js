@@ -32,7 +32,8 @@ import {
   validationHelper29,
   validationHelper30,
   validationHelper31,
-  validationHelper32
+  validationHelper32,
+  validationHelper33
 } from './validation.js';
 
 test('validationHelper1', () => { assert.strictEqual(validationHelper1(2), true); assert.strictEqual(validationHelper1(1), false); });
@@ -67,3 +68,4 @@ test('validationHelper29', () => { assert.strictEqual(validationHelper29(30), tr
 test('validationHelper30', () => { assert.strictEqual(validationHelper30(31), true); assert.strictEqual(validationHelper30(30), false); });
 test('validationHelper31', () => { assert.strictEqual(validationHelper31(32), true); assert.strictEqual(validationHelper31(31), false); });
 test('validationHelper32', () => { assert.strictEqual(validationHelper32(33), true); assert.strictEqual(validationHelper32(32), false); });
+test('validationHelper33', () => { assert.strictEqual(validationHelper33(34), true); assert.strictEqual(validationHelper33(33), false); });
