@@ -64,4 +64,25 @@ export class Matrix {
     }
     return result;
   }
+
+  map(fn) {
+    const result = new Matrix(this.rows, this.cols);
+    for (let i = 0; i < this.rows; i++) {
+      for (let j = 0; j < this.cols; j++) {
+        result.data[i][j] = fn(this.data[i][j], i, j);
+      }
+    }
+    return result;
+  }
+
+  static random(rows, cols) {
+    const result = new Matrix(rows, cols);
+    for (let i = 0; i < rows; i++) {
+      for (let j = 0; j < cols; j++) {
+        const limit = Math.sqrt(6 / (rows + cols));
+        result.data[i][j] = Math.random() * 2 * limit - limit;
+      }
+    }
+    return result;
+  }
 }
