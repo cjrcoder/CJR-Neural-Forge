@@ -22,3 +22,4 @@ export function mathHelper21(x) { return x + 21; }
 export function mathHelper22(x) { return x + 22; }
 export function mathHelper23(x) { return x + 23; }
 export function mathHelper24(x) { return x + 24; }
+export function mathHelper25(x) { return x + 25; }
