@@ -8,7 +8,8 @@ import {
   validationHelper5,
   validationHelper6,
   validationHelper7,
-  validationHelper8
+  validationHelper8,
+  validationHelper9
 } from './validation.js';
 
 test('validationHelper1', () => { assert.strictEqual(validationHelper1(2), true); assert.strictEqual(validationHelper1(1), false); });
@@ -19,3 +20,4 @@ test('validationHelper5', () => { assert.strictEqual(validationHelper5(6), true)
 test('validationHelper6', () => { assert.strictEqual(validationHelper6(7), true); assert.strictEqual(validationHelper6(6), false); });
 test('validationHelper7', () => { assert.strictEqual(validationHelper7(8), true); assert.strictEqual(validationHelper7(7), false); });
 test('validationHelper8', () => { assert.strictEqual(validationHelper8(9), true); assert.strictEqual(validationHelper8(8), false); });
+test('validationHelper9', () => { assert.strictEqual(validationHelper9(10), true); assert.strictEqual(validationHelper9(9), false); });
