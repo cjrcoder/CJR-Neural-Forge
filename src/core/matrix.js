@@ -11,4 +11,14 @@ export class Matrix {
       this.data = Array(rows).fill(null).map(() => Array(cols).fill(0));
     }
   }
+
+  transpose() {
+    const result = new Matrix(this.cols, this.rows);
+    for (let i = 0; i < this.rows; i++) {
+      for (let j = 0; j < this.cols; j++) {
+        result.data[j][i] = this.data[i][j];
+      }
+    }
+    return result;
+  }
 }
