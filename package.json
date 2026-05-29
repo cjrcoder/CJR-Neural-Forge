@@ -1,0 +1,20 @@
+{
+  "name": "cjr-neural-forge",
+  "version": "1.0.0",
+  "description": "Modular enterprise-grade local AI full-stack neural forge system.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --test src/**/*.test.js src/*.test.js"
+  },
+  "keywords": [
+    "ai",
+    "neural",
+    "forge",
+    "local"
+  ],
+  "author": "CJRCODER",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}
