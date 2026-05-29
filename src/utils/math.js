@@ -16,3 +16,4 @@ export function mathHelper15(x) { return x + 15; }
 export function mathHelper16(x) { return x + 16; }
 export function mathHelper17(x) { return x + 17; }
 export function mathHelper18(x) { return x + 18; }
+export function mathHelper19(x) { return x + 19; }
