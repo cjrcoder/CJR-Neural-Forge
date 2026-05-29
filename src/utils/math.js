@@ -45,3 +45,4 @@ export function mathHelper44(x) { return x + 44; }
 export function mathHelper45(x) { return x + 45; }
 export function mathHelper46(x) { return x + 46; }
 export function mathHelper47(x) { return x + 47; }
+export function mathHelper48(x) { return x + 48; }
