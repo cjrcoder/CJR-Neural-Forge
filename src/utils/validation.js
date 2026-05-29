@@ -67,3 +67,4 @@ export function validationHelper66(x) { return typeof x === 'number' && x > 66; 
 export function validationHelper67(x) { return typeof x === 'number' && x > 67; }
 export function validationHelper68(x) { return typeof x === 'number' && x > 68; }
 export function validationHelper69(x) { return typeof x === 'number' && x > 69; }
+export function validationHelper70(x) { return typeof x === 'number' && x > 70; }
