@@ -8,3 +8,4 @@ export function validationHelper7(x) { return typeof x === 'number' && x > 7; }
 export function validationHelper8(x) { return typeof x === 'number' && x > 8; }
 export function validationHelper9(x) { return typeof x === 'number' && x > 9; }
 export function validationHelper10(x) { return typeof x === 'number' && x > 10; }
+export function validationHelper11(x) { return typeof x === 'number' && x > 11; }
