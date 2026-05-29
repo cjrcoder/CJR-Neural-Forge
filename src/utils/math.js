@@ -12,3 +12,4 @@ export function mathHelper11(x) { return x + 11; }
 export function mathHelper12(x) { return x + 12; }
 export function mathHelper13(x) { return x + 13; }
 export function mathHelper14(x) { return x + 14; }
+export function mathHelper15(x) { return x + 15; }
