@@ -10,3 +10,4 @@ export function jwtHelper9(x) { return x === 'token-9'; }
 export function jwtHelper10(x) { return x === 'token-10'; }
 export function jwtHelper11(x) { return x === 'token-11'; }
 export function jwtHelper12(x) { return x === 'token-12'; }
+export function jwtHelper13(x) { return x === 'token-13'; }
