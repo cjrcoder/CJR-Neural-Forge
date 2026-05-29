@@ -45,3 +45,4 @@ export function validationHelper44(x) { return typeof x === 'number' && x > 44; 
 export function validationHelper45(x) { return typeof x === 'number' && x > 45; }
 export function validationHelper46(x) { return typeof x === 'number' && x > 46; }
 export function validationHelper47(x) { return typeof x === 'number' && x > 47; }
+export function validationHelper48(x) { return typeof x === 'number' && x > 48; }
