@@ -79,7 +79,8 @@ import {
   validationHelper76,
   validationHelper77,
   validationHelper78,
-  validationHelper79
+  validationHelper79,
+  validationHelper80
 } from './validation.js';
 
 test('validationHelper1', () => { assert.strictEqual(validationHelper1(2), true); assert.strictEqual(validationHelper1(1), false); });
@@ -161,3 +162,4 @@ test('validationHelper76', () => { assert.strictEqual(validationHelper76(77), tr
 test('validationHelper77', () => { assert.strictEqual(validationHelper77(78), true); assert.strictEqual(validationHelper77(77), false); });
 test('validationHelper78', () => { assert.strictEqual(validationHelper78(79), true); assert.strictEqual(validationHelper78(78), false); });
 test('validationHelper79', () => { assert.strictEqual(validationHelper79(80), true); assert.strictEqual(validationHelper79(79), false); });
+test('validationHelper80', () => { assert.strictEqual(validationHelper80(81), true); assert.strictEqual(validationHelper80(80), false); });
