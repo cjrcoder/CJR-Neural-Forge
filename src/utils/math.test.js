@@ -90,7 +90,8 @@ import {
   mathHelper87,
   mathHelper88,
   mathHelper89,
-  mathHelper90
+  mathHelper90,
+  mathHelper91
 } from './math.js';
 
 test('mathHelper1', () => { assert.strictEqual(mathHelper1(1), 2); });
@@ -183,3 +184,4 @@ test('mathHelper87', () => { assert.strictEqual(mathHelper87(1), 88); });
 test('mathHelper88', () => { assert.strictEqual(mathHelper88(1), 89); });
 test('mathHelper89', () => { assert.strictEqual(mathHelper89(1), 90); });
 test('mathHelper90', () => { assert.strictEqual(mathHelper90(1), 91); });
+test('mathHelper91', () => { assert.strictEqual(mathHelper91(1), 92); });
