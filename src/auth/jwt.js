@@ -22,3 +22,4 @@ export function jwtHelper21(x) { return x === 'token-21'; }
 export function jwtHelper22(x) { return x === 'token-22'; }
 export function jwtHelper23(x) { return x === 'token-23'; }
 export function jwtHelper24(x) { return x === 'token-24'; }
+export function jwtHelper25(x) { return x === 'token-25'; }
