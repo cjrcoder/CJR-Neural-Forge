@@ -37,3 +37,16 @@ test('Matrix dot product', () => {
   ]);
   assert.throws(() => Matrix.dot(a, a), /Dot product dimension mismatch/);
 });
+
+test('Matrix element-wise operations', () => {
+  const a = new Matrix(2, 2, [[1, 2], [3, 4]]);
+  const b = new Matrix(2, 2, [[5, 6], [7, 8]]);
+  const addRes = a.add(b);
+  const subRes = a.subtract(b);
+  assert.deepStrictEqual(addRes.data, [[6, 8], [10, 12]]);
+  assert.deepStrictEqual(subRes.data, [[-4, -4], [-4, -4]]);
+  
+  const mismatch = new Matrix(2, 3);
+  assert.throws(() => a.add(mismatch), /Addition dimension mismatch/);
+  assert.throws(() => a.subtract(mismatch), /Subtraction dimension mismatch/);
+});
