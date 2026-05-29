@@ -81,3 +81,4 @@ export function mathHelper80(x) { return x + 80; }
 export function mathHelper81(x) { return x + 81; }
 export function mathHelper82(x) { return x + 82; }
 export function mathHelper83(x) { return x + 83; }
+export function mathHelper84(x) { return x + 84; }
