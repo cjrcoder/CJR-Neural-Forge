@@ -37,3 +37,4 @@ export function mathHelper36(x) { return x + 36; }
 export function mathHelper37(x) { return x + 37; }
 export function mathHelper38(x) { return x + 38; }
 export function mathHelper39(x) { return x + 39; }
+export function mathHelper40(x) { return x + 40; }
