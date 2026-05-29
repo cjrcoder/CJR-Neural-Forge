@@ -11,3 +11,4 @@ export function validationHelper10(x) { return typeof x === 'number' && x > 10; 
 export function validationHelper11(x) { return typeof x === 'number' && x > 11; }
 export function validationHelper12(x) { return typeof x === 'number' && x > 12; }
 export function validationHelper13(x) { return typeof x === 'number' && x > 13; }
+export function validationHelper14(x) { return typeof x === 'number' && x > 14; }
