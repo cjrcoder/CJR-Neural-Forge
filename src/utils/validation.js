@@ -3,3 +3,4 @@ export function validationHelper2(x) { return typeof x === 'number' && x > 2; }
 export function validationHelper3(x) { return typeof x === 'number' && x > 3; }
 export function validationHelper4(x) { return typeof x === 'number' && x > 4; }
 export function validationHelper5(x) { return typeof x === 'number' && x > 5; }
+export function validationHelper6(x) { return typeof x === 'number' && x > 6; }
