@@ -58,3 +58,4 @@ export function mathHelper57(x) { return x + 57; }
 export function mathHelper58(x) { return x + 58; }
 export function mathHelper59(x) { return x + 59; }
 export function mathHelper60(x) { return x + 60; }
+export function mathHelper61(x) { return x + 61; }
