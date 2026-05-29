@@ -40,3 +40,4 @@ export function mathHelper39(x) { return x + 39; }
 export function mathHelper40(x) { return x + 40; }
 export function mathHelper41(x) { return x + 41; }
 export function mathHelper42(x) { return x + 42; }
+export function mathHelper43(x) { return x + 43; }
