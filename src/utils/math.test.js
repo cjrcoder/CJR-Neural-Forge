@@ -6,7 +6,8 @@ import {
   mathHelper3,
   mathHelper4,
   mathHelper5,
-  mathHelper6
+  mathHelper6,
+  mathHelper7
 } from './math.js';
 
 test('mathHelper1', () => { assert.strictEqual(mathHelper1(1), 2); });
@@ -15,3 +16,4 @@ test('mathHelper3', () => { assert.strictEqual(mathHelper3(1), 4); });
 test('mathHelper4', () => { assert.strictEqual(mathHelper4(1), 5); });
 test('mathHelper5', () => { assert.strictEqual(mathHelper5(1), 6); });
 test('mathHelper6', () => { assert.strictEqual(mathHelper6(1), 7); });
+test('mathHelper7', () => { assert.strictEqual(mathHelper7(1), 8); });
