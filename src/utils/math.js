@@ -97,3 +97,4 @@ export function mathHelper96(x) { return x + 96; }
 export function mathHelper97(x) { return x + 97; }
 export function mathHelper98(x) { return x + 98; }
 export function mathHelper99(x) { return x + 99; }
+export function mathHelper100(x) { return x + 100; }
