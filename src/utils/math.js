@@ -31,3 +31,4 @@ export function mathHelper30(x) { return x + 30; }
 export function mathHelper31(x) { return x + 31; }
 export function mathHelper32(x) { return x + 32; }
 export function mathHelper33(x) { return x + 33; }
+export function mathHelper34(x) { return x + 34; }
