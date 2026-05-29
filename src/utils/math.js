@@ -27,3 +27,4 @@ export function mathHelper26(x) { return x + 26; }
 export function mathHelper27(x) { return x + 27; }
 export function mathHelper28(x) { return x + 28; }
 export function mathHelper29(x) { return x + 29; }
+export function mathHelper30(x) { return x + 30; }
