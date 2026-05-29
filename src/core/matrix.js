@@ -21,4 +21,21 @@ export class Matrix {
     }
     return result;
   }
+
+  static dot(a, b) {
+    if (a.cols !== b.rows) {
+      throw new Error('Dot product dimension mismatch.');
+    }
+    const result = new Matrix(a.rows, b.cols);
+    for (let i = 0; i < a.rows; i++) {
+      for (let j = 0; j < b.cols; j++) {
+        let sum = 0;
+        for (let k = 0; k < a.cols; k++) {
+          sum += a.data[i][k] * b.data[k][j];
+        }
+        result.data[i][j] = sum;
+      }
+    }
+    return result;
+  }
 }
