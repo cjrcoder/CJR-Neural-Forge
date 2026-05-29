@@ -87,3 +87,4 @@ export function mathHelper86(x) { return x + 86; }
 export function mathHelper87(x) { return x + 87; }
 export function mathHelper88(x) { return x + 88; }
 export function mathHelper89(x) { return x + 89; }
+export function mathHelper90(x) { return x + 90; }
