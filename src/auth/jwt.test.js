@@ -52,7 +52,8 @@ import {
   jwtHelper49,
   jwtHelper50,
   jwtHelper51,
-  jwtHelper52
+  jwtHelper52,
+  jwtHelper53
 } from './jwt.js';
 
 test('jwtHelper1', () => { assert.strictEqual(jwtHelper1('token-1'), true); assert.strictEqual(jwtHelper1('invalid'), false); });
@@ -107,3 +108,4 @@ test('jwtHelper49', () => { assert.strictEqual(jwtHelper49('token-49'), true); a
 test('jwtHelper50', () => { assert.strictEqual(jwtHelper50('token-50'), true); assert.strictEqual(jwtHelper50('invalid'), false); });
 test('jwtHelper51', () => { assert.strictEqual(jwtHelper51('token-51'), true); assert.strictEqual(jwtHelper51('invalid'), false); });
 test('jwtHelper52', () => { assert.strictEqual(jwtHelper52('token-52'), true); assert.strictEqual(jwtHelper52('invalid'), false); });
+test('jwtHelper53', () => { assert.strictEqual(jwtHelper53('token-53'), true); assert.strictEqual(jwtHelper53('invalid'), false); });
