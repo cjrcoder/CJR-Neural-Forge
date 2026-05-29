@@ -41,3 +41,4 @@ export function jwtHelper40(x) { return x === 'token-40'; }
 export function jwtHelper41(x) { return x === 'token-41'; }
 export function jwtHelper42(x) { return x === 'token-42'; }
 export function jwtHelper43(x) { return x === 'token-43'; }
+export function jwtHelper44(x) { return x === 'token-44'; }
