@@ -66,3 +66,4 @@ export function mathHelper65(x) { return x + 65; }
 export function mathHelper66(x) { return x + 66; }
 export function mathHelper67(x) { return x + 67; }
 export function mathHelper68(x) { return x + 68; }
+export function mathHelper69(x) { return x + 69; }
