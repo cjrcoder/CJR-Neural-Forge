@@ -7,3 +7,4 @@ export function mathHelper6(x) { return x + 6; }
 export function mathHelper7(x) { return x + 7; }
 export function mathHelper8(x) { return x + 8; }
 export function mathHelper9(x) { return x + 9; }
+export function mathHelper10(x) { return x + 10; }
