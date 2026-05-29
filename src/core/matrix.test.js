@@ -50,3 +50,21 @@ test('Matrix element-wise operations', () => {
   assert.throws(() => a.add(mismatch), /Addition dimension mismatch/);
   assert.throws(() => a.subtract(mismatch), /Subtraction dimension mismatch/);
 });
+
+test('Matrix map transformation', () => {
+  const a = new Matrix(2, 2, [[1, 2], [3, 4]]);
+  const mapped = a.map(x => x * 2);
+  assert.deepStrictEqual(mapped.data, [[2, 4], [6, 8]]);
+});
+
+test('Matrix random initialization', () => {
+  const m = Matrix.random(4, 5);
+  assert.strictEqual(m.rows, 4);
+  assert.strictEqual(m.cols, 5);
+  for (let i = 0; i < 4; i++) {
+    for (let j = 0; j < 5; j++) {
+      assert.strictEqual(typeof m.data[i][j], 'number');
+      assert.ok(!isNaN(m.data[i][j]));
+    }
+  }
+});
